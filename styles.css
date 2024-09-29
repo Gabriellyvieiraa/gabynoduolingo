@@ -1,0 +1,63 @@
+body {
+    font-family: 'SUSE', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9f4;
+    color: #333;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.principal {
+    background-color: #4caf50;
+    color: white;
+}
+
+.container__botao {
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.container__botao.botao_secundario {
+    background-color: #f9a825;
+}
+
+.secundario__imagem {
+    max-width: 100%;
+    height: auto;
+}
+
+.dispositivos {
+    background-color: #e8f5e9;
+    padding: 20px;
+}
+
+.dispositivos__lista {
+    list-style: none;
+    padding: 0;
+}
+
+.rodape {
+    text-align: center;
+    padding: 20px;
+    background-color: #4caf50;
+    color: white;
+}
+
+.rodape__lista {
+    list-style: none;
+    padding: 0;
+}
+
+.rodape__lista li {
+    display: inline;
+    margin-right: 15px;
+}
